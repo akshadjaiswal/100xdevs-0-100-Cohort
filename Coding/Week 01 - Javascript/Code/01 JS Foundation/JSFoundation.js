@@ -136,3 +136,16 @@ function sub(a, b) {
 }
 
 console.log(calculateAruthmetic(1, 2, sum));
+console.log("------------------------------------");
+setTimeout(() => {
+  console.log("hlo");
+}, 2000);
+
+console.log("------------------------------------");
+function counter() {
+  for (i = 30; i >= 0; i--) {
+    console.log(i);
+  }
+}
+// counter()
+setTimeout(counter, 1000);
