@@ -1,0 +1,14 @@
+{
+  "name": "02-express-and-node-js",
+  "version": "1.0.0",
+  "description": "Express things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshad Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
