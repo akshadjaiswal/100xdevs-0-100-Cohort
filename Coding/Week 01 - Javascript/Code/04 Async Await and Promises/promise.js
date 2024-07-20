@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { resolve } = require("path");
 
 function akshadReadFile() {
   return new Promise(function (resolve) {
@@ -14,3 +13,8 @@ function onDone(data) {
 }
 
 akshadReadFile().then(onDone);
+
+// var d= new Promise(function(resolve){
+
+// });
+// console.log(d)
