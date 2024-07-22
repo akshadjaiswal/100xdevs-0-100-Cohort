@@ -1,15 +1,12 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {
-  res.send('<b>Hello World</b>');
-  // res.send("Hello World");
-});
-
-app.post("/conversation", (req, res) => {
-  res.send('<b>Conversation </b>');
-  // res.send("Hello World");
+app.use(bodyParser.json());
+app.post("/", (req, res) => {
+  console.log(req.body);
+  res.send("Hello World");
 });
 
 app.listen(port, () => {
