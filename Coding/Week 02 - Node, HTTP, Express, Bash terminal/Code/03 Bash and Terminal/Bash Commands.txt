@@ -1,0 +1,12 @@
+//Bash Important Commands
+
+pwd - current directory
+cd - changing the drive
+ls - listing all files in directory
+mkdir - creating new directory
+touch - creating new file
+cat - opening a file
+vi - editing a file
+mv - moving files in between folder
+cp - copy file
+
