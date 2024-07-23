@@ -1,0 +1,12 @@
+//Terminal Important commands
+The cd command.
+The is command.
+The pwd command.
+The mkdir command.
+The rmdir command.
+The rm command.
+The mv command.
+The cp command
+The cat command
+The less command
+The find command
