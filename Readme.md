@@ -22,7 +22,7 @@
 <hr></hr>
 
 ##  Week - 1 Basic Javascript, Async and Promises
-
+[Notes](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Notes/Week%2001)
 - Week 1.1 - Orientation
 - Week 1.2 JavaScript Foundation 
 - Week 1.3 Basics JavaScript APIs
@@ -30,7 +30,7 @@
 - Week 1.5 Async, JS architecture, promises & async await
 
 ##  Week - 2 Node, HTTP, Express, Bash terminal
-
+[Notes](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Notes/Week%2002)
 - Week 2.1 Promises and async JS revision 
 - Week 2.2 Express & Node.js
 - Week 2.3 Bash and Terminal
