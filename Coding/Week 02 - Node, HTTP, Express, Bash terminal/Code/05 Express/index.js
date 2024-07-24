@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-app.use(express.json())
+app.use(express.json());
 const users = [
   {
     name: "Akshad",
@@ -61,9 +61,40 @@ app.post("/", (req, res) => {
   });
 });
 
-app.put("/", (req, res) => {});
+app.put("/", (req, res) => {
+  for (let i = 0; i < users[0].kidneys.length; i++) {
+    users[0].kidneys[i].healthy = true;
+  }
+  res.json({});
+});
 
-app.delete("/", (req, res) => {});
+app.delete("/", (req, res) => {
+  if (isThereAtLeastOneUnhealthyKidney()) {
+    const newKidneys = [];
+    for (let i = 0; i < users[0].kidneys.length; i++) {
+      if (users[0].kidneys[i].healthy) {
+        newKidneys.push({
+          healthy: true,
+        });
+      }
+    }
+    users[0].kidneys = newKidneys;
+    res.json({ msg: "done" });
+  } else {
+    res.status(411).json({
+      msg: "You have no bad Kidneys",
+    });
+  }
+});
+function isThereAtLeastOneUnhealthyKidney() {
+  let atleastOneUnhealthyKidney = false;
+  for (let i = 0; i < users[0].kidneys.length; i++) {
+    if (!users[0].kidneys[i].healthy) {
+      atleastOneUnhealthyKidney = true;
+    }
+  }
+  return atleastOneUnhealthyKidney;
+}
 
 app.listen(3000, () => {
   console.log("App running on port 3000");
