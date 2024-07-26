@@ -38,3 +38,11 @@
 - Week 2.5 Express From Basics
 - Week 2.6 Map, Filter, and Arrow Functions
 - Week 2.7 Git and GitHub
+
+##  Week - 3 Databases, JWT, Middleware
+
+- Week 3.1 Middlewares, zod and Global Catches
+- Week 3.2 Databases and Authentication
+- Week 3.3 Middlewares and Assignments
+- Week 3.4 JWT and Auth Recap and Assignment
+- Week 3.5 DOM Introduction
