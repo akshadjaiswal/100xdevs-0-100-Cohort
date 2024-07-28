@@ -14,4 +14,7 @@ What we learned as JS foundation
 - async functions
 - async await
 -promises
--
+
+// Database sql/nosql
+mongodb
+postgres
