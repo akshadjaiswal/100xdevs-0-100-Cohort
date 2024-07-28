@@ -1,0 +1,17 @@
+What we learned as JS foundation
+- let var const
+-loops
+-functions
+-string numbers boolean
+-arrays map and filter
+-objects
+
+
+//advance
+-async programming
+-event loops
+-call backs
+- async functions
+- async await
+-promises
+-
