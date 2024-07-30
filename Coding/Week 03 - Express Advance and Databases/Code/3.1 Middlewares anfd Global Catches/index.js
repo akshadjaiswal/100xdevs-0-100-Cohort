@@ -2,6 +2,12 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+let numberOfRequest = 0;
+function calculateRequest(req, res, next) {
+  numberOfRequest++;
+  console.log(numberOfRequest);
+  next();
+}
 function userMiddleware(req, res, next) {
   const username = req.headers.username;
   const password = req.headers.password;
@@ -25,6 +31,7 @@ function kidneyMiddleware(req, res, next) {
     next();
   }
 }
+app.use(calculateRequest);
 app.get("/health-checkup", userMiddleware, kidneyMiddleware, (req, res) => {
   res.send("Your are healthy");
 });
