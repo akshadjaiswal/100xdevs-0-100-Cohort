@@ -1,0 +1,17 @@
+{
+  "name": "3.1-middlewares-anfd-global-catches",
+  "version": "1.0.0",
+  "description": "Middlewares learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Akshad Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
