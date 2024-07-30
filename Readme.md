@@ -1,5 +1,4 @@
 <hr></hr>
-
 # 100xdevs 0-100 Cohort by [Harkirat Singh](https://twitter.com/kirat_tw)
 
 - MERN
