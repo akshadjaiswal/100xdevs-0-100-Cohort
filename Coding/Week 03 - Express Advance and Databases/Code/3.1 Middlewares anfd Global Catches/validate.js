@@ -1,9 +1,11 @@
 //if this is an array of number with aleats 1 input , trturn true else false
+
 const express = require("express");
 const app = express();
+const zod = require("zod");
 app.use(express.json());
 const port = 3000;
-const zod = require("zod");
+
 function validateInput(obj) {
   const schema = zod.object({
     email: zod.string().email(),
