@@ -29,6 +29,8 @@
 - Week 1.4 Loops, Callback Functions
 - Week 1.5 Async, JS architecture, promises & async await
 
+<hr></hr>
+
 ##  Week - 2 Node, HTTP, Express, Bash terminal
 
 [Notes](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Notes/Week%2002)
@@ -40,6 +42,8 @@
 - Week 2.6 Map, Filter, and Arrow Functions
 - Week 2.7 Git and GitHub
 
+<hr></hr>
+
 ##  Week - 3 Databases, JWT, Middleware
 
 - Week 3.1 Middlewares, zod and Global Catches
@@ -47,3 +51,5 @@
 - Week 3.3 Middlewares and Assignments
 - Week 3.4 JWT and Auth Recap and Assignment
 - Week 3.5 DOM Introduction
+
+<hr></hr>
