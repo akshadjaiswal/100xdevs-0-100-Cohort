@@ -1,0 +1,1 @@
+# Notes of Week 2 learning
