@@ -22,7 +22,7 @@ app.post("/health-checkup", (req, res) => {
   const email = req.body.email;
   const password = req.body.password;
   const kidenys = req.body.kidenys;
-  const response = schema.safeParse( kidenys);
+  const response = schema.safeParse(kidenys);
   //   if (!response.success) {
   //     res.status(411).json({
   //       msg: "Please give the valid inputs",
