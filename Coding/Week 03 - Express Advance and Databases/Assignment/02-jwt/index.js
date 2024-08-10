@@ -40,12 +40,13 @@ function signJwt(username, password) {
  *                    using the secret key.
  */
 function verifyJwt(token) {
-  const verified = jwt.verify(token);
-  if (verified) {
-    return true;
-  } else {
-    return false;
+  let ans = true;
+  try {
+    jwt.verify(token, jwtPassword);
+  } catch (e) {
+    ans = false;
   }
+  return ans;
 }
 
 /**
@@ -61,7 +62,7 @@ function decodeJwt(token) {
   if (decoded) {
     return true;
   } else {
-    false;
+    return false;
   }
 }
 
