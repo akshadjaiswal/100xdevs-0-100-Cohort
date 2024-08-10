@@ -46,6 +46,8 @@
 
 ##  Week - 3 Databases, JWT, Middleware
 
+Assignments
+
 - Week 3.1 Middlewares, zod and Global Catches
 - Week 3.2 Databases and Authentication
 - Week 3.3 Middlewares and Assignments
