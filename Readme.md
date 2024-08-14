@@ -61,5 +61,6 @@ Assignments
 - Week 4.1 DOM
 - Week 4.2 React Foundation
 - Week 4.3 Mongo Deep Dive & Assignments
+    - CRUD
 
 <hr></hr>
