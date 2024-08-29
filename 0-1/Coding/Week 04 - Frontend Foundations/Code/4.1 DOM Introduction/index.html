@@ -9,20 +9,20 @@
   <body>
     <div>
       <input
-        oninput="populateDiv()"
+        oninput="debouncePopulateDiv()"
         id="firstNumber"
         type="text"
         placeholder="First number"
       />
     </div>
     <input
-      oninput="populateDiv()"
+      oninput="debouncePopulateDiv()"
       id="secondNumber"
       type="text"
       placeholder="Second number"
     />
     <br /><br />
-    <button onclick="populateDiv()">Calculate Sum</button>
+    <button onclick="debouncePopulateDiv()">Calculate Sum</button>
     <div id="finalSum"></div>
   </body>
   <script src="Script.js"></script>
