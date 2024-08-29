@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
     <title>Add</title>
   </head>
-
   <body>
     <div>
-      <input id="firstNumber" type="text" placeholder="First number" />
+      <input
+        oninput="populateDiv()"
+        id="firstNumber"
+        type="text"
+        placeholder="First number"
+      />
     </div>
-    <input id="secondNumber" type="text" placeholder="Second number" /> <br /><br />
+    <input
+      oninput="populateDiv()"
+      id="secondNumber"
+      type="text"
+      placeholder="Second number"
+    />
+    <br /><br />
     <button onclick="populateDiv()">Calculate Sum</button>
     <div id="finalSum"></div>
   </body>

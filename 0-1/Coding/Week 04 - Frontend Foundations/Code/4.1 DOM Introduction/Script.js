@@ -1,3 +1,12 @@
+//debouncing and throtling
+let timer;
+function debouncePopulateDiv() {
+  clearTimeout(timer);
+  timer = setTimeout(function () {
+    populateDiv();
+  }, 1000);
+}
+
 async function populateDiv() {
   const a = document.getElementById("firstNumber").value;
   const b = document.getElementById("secondNumber").value;
