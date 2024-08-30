@@ -13,14 +13,14 @@
 
 ># 0 - 1
 
-##  Week - 0 HTML, CSS, Assignment
+##  [Week - 0 HTML, CSS, Assignment](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%200%20-%20Warming%20Up)
 
 - Basics of HTML and CSS
 - Assignment - [Zerodha Landing Page](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Coding/Projects/Simple%20ZERODHA%20app)
 
 <hr></hr>
 
-##  Week - 1 Basic Javascript, Async and Promises
+##  [Week - 1 Basic Javascript, Async and Promises](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%2001%20-%20Javascript)
 
 [Notes](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Notes/Week%2001)
 - Week 1.1 - Orientation
