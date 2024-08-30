@@ -31,7 +31,7 @@
 
 <hr></hr>
 
-##  Week - 2 Node, HTTP, Express, Bash terminal
+##  [Week - 2 Node, HTTP, Express, Bash terminal](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%2002%20-%20Node%2C%20HTTP%2C%20Express%2C%20Bash%20terminal/Code)
 
 [Notes](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/Notes/Week%2002)
 - Week 2.1 Promises and async JS revision 
@@ -44,9 +44,9 @@
 
 <hr></hr>
 
-##  Week - 3 Databases, JWT, Middleware
+##  [Week - 3 Databases, JWT, Middleware](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%2003%20-%20Express%20Advance%20and%20Databases)
 
-[Assignments]()
+[Assignments](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%2003%20-%20Express%20Advance%20and%20Databases/Assignment)
 
 - Week 3.1 Middlewares, zod and Global Catches
 - Week 3.2 Databases and Authentication
