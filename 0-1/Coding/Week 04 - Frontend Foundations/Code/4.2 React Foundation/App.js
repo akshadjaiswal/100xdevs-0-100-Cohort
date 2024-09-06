@@ -33,13 +33,13 @@ function updateDomAccToState(state) {
 }
 updateDomAccToState([
     {
-        title: "Gym",
+        title: "Akshad Gym",
         description: "At the 5:30",
         id: "1",
     },
     {
-        title: "Music",
-        description: "Guitar class",
+        title: " Akshad Music",
+        description: "Guitar class ",
         id: "2",
     },
 ])
