@@ -31,18 +31,14 @@ function updateDomAccToState(state) {
         parent.appendChild(child)
     }
 }
-updateDomAccToState([
-    {
-        title: "Akshad Gym",
-        description: "At the 5:30",
-        id: "1",
-    },
-    {
-        title: " Akshad Music",
-        description: "Guitar class ",
-        id: "2",
-    },
-])
+
+window.setInterval(async function () {
+    const res = await fetch("http://localhost:3000/todos")
+    const json = await res.json();
+    console.log(json.todos)
+    updateDomAccToState(json.todos);
+
+}, 5000)
 
 // function addTodo() {
 //   const title = document.getElementById("title").value;
