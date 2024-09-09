@@ -28,16 +28,16 @@ app.post("/signup", async function (req, res) {
     password: password,
   });
 
-  user.save().then(()=>{
+  user.save().then(() => {
     console.log("Inserted ")
   });
-  
+
   res.json({
     msg: "User created ",
   });
 });
-app.get("/",(req,res)=>{
-    res.send("Working")
+app.get("/", (req, res) => {
+  res.send("Working")
 })
 
 app.listen(3000, () => {
