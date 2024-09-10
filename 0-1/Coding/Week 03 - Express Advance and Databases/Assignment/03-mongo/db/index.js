@@ -6,13 +6,13 @@ mongoose.connect('mongodb+srv://akshadsantoshjaiswal:rFw7NSxncTpSc7Bq@cluster0.y
 // Define schemas
 const AdminSchema = new mongoose.Schema({
     // Schema definition here
-    user: String,
+    username: String,
     password: String
 });
 
 const UserSchema = new mongoose.Schema({
     // Schema definition here
-    user: String,
+    username: String,
     password: String,
     purchasedCourses: [{
         type: mongoose.Schema.Types.ObjectId,
@@ -24,8 +24,8 @@ const CourseSchema = new mongoose.Schema({
     // Schema definition here
     title: String,
     description: String,
+    price: Number,
     imageLink: String,
-    price: Number
 });
 
 const Admin = mongoose.model('Admin', AdminSchema);
