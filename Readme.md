@@ -64,3 +64,12 @@
     - CRUD Assignment
 
 <hr></hr>
+
+##  Week - 5 React Foundations and Projects
+
+- Week 5.1 React Deep Drive
+- Week 5.2 React Project (Todo App)
+- Assignment
+   - [Business Card]()
+     
+<hr></hr>
