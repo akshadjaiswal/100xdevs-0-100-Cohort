@@ -73,3 +73,12 @@
    - [Business Card]()
      
 <hr></hr>
+
+## 🤝 Contribution Guidelines
+
+- Please create an issue with your suggestion.
+- If you have notes of your own, and are interested in contributing to this repo, hit a PR ! I'll review it and add it immediately 🤓.
+
+## ✨ Show your support
+
+Give a ⭐️ if this project helped you and try to contribute and share with your developers.
