@@ -74,6 +74,14 @@
      
 <hr></hr>
 
+## Week - 6 React useEffect, useCallback, useMemo
+
+- Week 6.1 React Deeper Drive  
+- Week 6.2 useEffect, useCallback, useMemo
+- Week 6.3 Recap React, reconcilliation, useRef
+
+<hr></hr>
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
