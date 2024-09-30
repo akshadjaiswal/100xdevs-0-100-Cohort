@@ -12,6 +12,7 @@
 <hr>
 
 ># [0 - 1](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1#cohort-20--0-1)
+ The foundational building blocks of my development journey within the 100xDevs program.
 
 ##  [Week - 0 HTML, CSS, Assignment](https://github.com/akshadjaiswal/100xdevs-0-100-Cohort/tree/main/0-1/Coding/Week%200%20-%20Warming%20Up)
 
