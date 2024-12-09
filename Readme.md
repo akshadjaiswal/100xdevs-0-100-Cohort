@@ -73,7 +73,7 @@
      
 <hr></hr>
 
-## Week - 6 React useEffect, useCallback, useMemo
+## [Week - 6 React useEffect, useCallback, useMemo]()
 
 - Week 6.1 React Deeper Drive  
 - Week 6.2 useEffect, useCallback, useMemo
