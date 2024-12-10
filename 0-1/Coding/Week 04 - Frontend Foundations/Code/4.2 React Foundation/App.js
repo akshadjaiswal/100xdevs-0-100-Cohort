@@ -20,6 +20,7 @@ function createChild(title, description, id) {
     child.setAttribute("id", id);
     return child;
 }
+
 //State will always be anarray
 //every element of state will be have an title, description and id 
 
