@@ -3,14 +3,18 @@ import Header from "./Header";
 import Todo from "./Todo";
 // import HeaderWithButton from "./HeaderWithButton";
 
+let counter = 3;
+
 function App() {
   // const [title, setTitle] = useState("Akshad");
   const [todos, setTodos] = useState([
     {
+      id: 1,
       title: "Gym",
       description: "At 6 am",
     },
     {
+      id: 2,
       title: "Code",
       description: "At 7 am",
     },
@@ -24,10 +28,12 @@ function App() {
     setTodos([
       ...todos,
       {
+        id: counter++,
         title: Math.random(),
         description: Math.random(),
       },
     ]);
+    console.log(todos)
   };
   return (
     <div>
@@ -37,9 +43,9 @@ function App() {
       <Header title="Akshad jjj" />
       <Header title="Akshad jjj" />
       <Header title="Akshad jjj" /> */}
-      {todos.map((todo, index) => {
+      {todos.map((todo) => {
         return (
-          <div key={index}>
+          <div key={todo.id}>
             <Todo title={todo.title} description={todo.description}></Todo>
           </div>
         );
