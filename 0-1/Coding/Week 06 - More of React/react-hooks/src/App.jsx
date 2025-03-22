@@ -5,7 +5,6 @@ function App() {
     <div>
       <Cardwrapper children={<TextComponent title={"Akshad"} />} />
       <Cardwrapper>
-        {" "}
         <h1>Hi there its me full stack developer</h1>
       </Cardwrapper>
       <Cardwrapper>
