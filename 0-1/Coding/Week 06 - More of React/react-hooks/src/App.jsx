@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import TextComponent from "./TextComponent";
 
 function App() {
+  useEffect(() => {
+    alert("Component mount");
+  }, []);
   return (
     <div>
       <Cardwrapper children={<TextComponent title={"Akshad"} />} />
